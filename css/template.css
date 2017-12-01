@@ -35,7 +35,7 @@ hr {
 a {
 	text-decoration: none;
 	outline: none;
-	color: #2ec06c;
+	color: #097ba4;
 	-webkit-transition: all .3s ease-in-out;
 	   -moz-transition: all .3s ease-in-out;
 		 -o-transition: all .3s ease-in-out;
@@ -172,7 +172,7 @@ img.img-full-width {
 	text-align: center;
 }
 .nino-hoverEffect .item {
-	background: #95e1d3;
+	background: #c8cc97;
 	display: inline-block;
 }
 .nino-hoverEffect .item .overlay {
@@ -199,10 +199,10 @@ img.img-full-width {
 		 -o-transition: all .3s ease-in-out;
 		-ms-transition: all .3s ease-in-out;
 			transition: all .3s ease-in-out;
-	background: rgba(243,129,129,0.9); /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
-	background: -webkit-linear-gradient(top, rgba(243,129,129,0.9), rgba(252, 227, 138, 0.9));
+	background: rgba(20, 128, 168,0.9); /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
+	background: -webkit-linear-gradient(top, rgba(20, 128, 168,0.9), rgba(184, 148, 67, 0.9));
 	background: -o-linear-gradient(top, rgba(243,129,129,0.9), rgba(252, 227, 138, 0.9));
-	background: linear-gradient(to bottom, rgba(243,129,129,0.9), rgba(252, 227, 138, 0.9)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: linear-gradient(to bottom, rgba(20, 128, 168,0.9), rgba(252, 227, 138, 0.9)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .nino-hoverEffect .item:hover .overlay {
 	left: -10px;
@@ -303,7 +303,7 @@ img.img-full-width {
 	top: -2px;
 	width: 60px;
 	height: 2px;
-	background: #f38181;
+	background: #f99c1b;
 }
 #nino-slider .carousel-indicators li .number {
 	font-weight: 700;
@@ -427,7 +427,7 @@ section {
 	bottom: 0;
 	width: 50px;
 	height: 2px;
-	background: #f38181;
+	background: #f99c1b;
 	transform: translateX(-50%);
 }
 .nino-sectionHeading .nino-subHeading {
@@ -455,7 +455,7 @@ section {
 /* =============== SECTION COUNTING =============== */
 #nino-counting {
 	padding: 0;
-	background: #95e1d3;
+	background: #fccd8b;
 	font-family: 'Montserrat', sans-serif;
 	text-align: center;
 	color: #fff;
@@ -480,7 +480,7 @@ section {
 #nino-services .nino-icon {
 	font-size: 30px;
 	margin-right: 20px;
-	color: #95e1d3;
+	color: #fccd8b;
 }
 #nino-services .item:not(:nth-last-child(-n+3)) {
 	border-bottom: 1px solid #e5e5e5;
@@ -540,7 +540,7 @@ section {
 	left: 10px;
 	top: 13px;
 	font-size: 30px;
-	color: #95e1d3;
+	color: #fccd8b;
 }
 #nino-whatWeDo .panel-title .nino-icon.arrow {
 	left: auto;
@@ -562,7 +562,7 @@ section {
 #nino-whatWeDo .mCS-default .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,
 #nino-whatWeDo .mCS-default .mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar, 
 #nino-whatWeDo .mCS-default .mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar {
-	background: #95e1d3;
+	background: #fccd8b;
 }
 #nino-whatWeDo .mCSB_scrollTools .mCSB_draggerRail {
 	background: #f5f5f5;
@@ -594,9 +594,9 @@ section {
 }
 .nino-testimonialSlider .nino-symbol .nino-icon {
 	padding: 16px;
-	border: 2px solid #95e1d3;
+	border: 2px solid #fccd8b;
 	font-size: 65px;
-	color: #95e1d3;
+	color: #fccd8b;
 }
 .nino-testimonialSlider .quote {
 	font-size: 18px;
@@ -617,7 +617,7 @@ section {
 	top: 50%;
 	width: 40px;
 	height: 2px;
-	background: #f38181;
+	background: #f99c1b;
 	-webkit-transform: translateY(-50%);
 	   -moz-transform: translateY(-50%);
 		 -o-transform: translateY(-50%);
@@ -669,10 +669,10 @@ section {
 	width: 100%;
 	height: 100%;
 	text-align: center;
-	background: rgba(243,129,129,0.9); /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
-	background: -webkit-linear-gradient(top, rgba(243,129,129,0.9), rgba(252, 227, 138, 0.9));
+	background: rgba(20, 128, 168,0.9); /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
+	background: -webkit-linear-gradient(top, rgba(20, 128, 168,0.9), rgba(184, 148, 67, 0.9));
 	background: -o-linear-gradient(top, rgba(243,129,129,0.9), rgba(252, 227, 138, 0.9));
-	background: linear-gradient(to bottom, rgba(243,129,129,0.9), rgba(252, 227, 138, 0.9)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: linear-gradient(to bottom, rgba(20, 128, 168,0.9), rgba(252, 227, 138, 0.9)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 #nino-portfolio .nino-portfolioItems li .content {
 	position: absolute;
@@ -701,15 +701,15 @@ section {
 #nino-ourTeam .content .nino-icon {
 	display: inline-block;
 	font-size: 25px;
-	color: #f38181;
-	background: #fce38a;
+	color: #097ba4;
+	background: #fccd8b;
 	padding: 10px;
 	margin: 0 -1px;
 	line-height: 100%;
 }
 #nino-ourTeam .content .nino-icon:hover {
 	color: #fff;
-	background: #f38181;
+	background: #097ba4;
 }
 #nino-ourTeam .info {
 	margin-top: 35px;
@@ -750,7 +750,7 @@ section {
 	bottom: 0;
 	width: 50px;
 	height: 2px;
-	background: #f38181;
+	background: #f99c1b;
 }
 /* =============== SECTION LATEST BLOG =============== */
 #nino-latestBlog article .articleThumb {
@@ -759,7 +759,7 @@ section {
 }
 #nino-latestBlog article .date {
 	position: absolute;
-	background: #95e1d3;
+	background: #fccd8b;
 	left: -10px;
 	bottom: 10px;
 	padding: 10px 15px;
@@ -797,7 +797,7 @@ section {
 	color: #000;
 }
 #nino-latestBlog article .articleMeta .nino-icon {
-	color: #95e1d3;
+	color: #fccd8b;
 	font-size: 17px;
 	position: relative;
 	top: 2px;
@@ -808,7 +808,7 @@ section {
 	background: url(../images/map/bg-map.jpg) no-repeat center center / cover;
 }
 #nino-map .nino-sectionHeading {
-	color: #f28989;
+	color: #f99c1b;
 	margin: 0;
 	cursor: pointer;
 }
@@ -883,7 +883,7 @@ footer .nino-followUs .socialNetwork .nino-icon {
 	display: inline-block;
 	margin: 0 3px;
 	font-size: 18px;
-	color: #95e1d3;
+	color: #fccd8b;
 }
 footer .nino-subscribeForm .input-group input,
 footer .nino-subscribeForm .input-group .btn {
@@ -900,7 +900,7 @@ footer .nino-subscribeForm .input-group .btn {
 	font-weight: 700;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 14px;
-	background: #95e1d3;
+	background: #fccd8b;
 	border: none;
 }
 /* ----------- COL 2 ----------- */
@@ -1002,11 +1002,11 @@ footer .nino-copyright {
 	display: none;
 	cursor: pointer;
 	z-index: 2;
-	background: #E74C3C url(../images/go-to-top.png) center center no-repeat;
+	background: #f99c1b url(../images/go-to-top.png) center center no-repeat;
 }
 #nino-scrollToTop:hover {
 	text-decoration: none;
-	background-color: #F75C4C;
+	background-color: #f99c1b;
 }
 /* =============== PRETTY PHOTO OVERRIDE =============== */
 div.pp_pic_holder a {
