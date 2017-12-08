@@ -1,0 +1,37 @@
+---
+layout: default 
+title: CADERH | Noticias
+---
+
+    <!-- Latest Blog
+    ================================================== -->
+    <section id="nino-latestBlog">
+    	<div class="container">
+    		<h2 class="nino-sectionHeading">
+				Noticias
+			</h2>
+			<div class="sectionContent">
+				<div class="row">
+
+					{% for item in site.newsItems  %}
+						<div class="col-md-4 col-sm-4">
+							<article>
+								<div class="articleThumb">
+									<a href="#"><img src={{item.image}} alt=""></a>
+									<div class="date">
+										<span class="number">{{item.day}}</span>
+										<span class="text">{{item.month}}</span>
+									</div>
+								</div>
+								<h3 class="articleTitle"><a href="">{{item.title}}</a></h3>
+								<p class="articleDesc">
+									{{item.description}}
+								</p>
+							</article>
+						</div>
+					{% endfor %}
+
+				</div>
+			</div>
+    	</div>
+    </section><!--/#nino-latestBlog-->
