@@ -1,9 +1,11 @@
 ---
-layout: default
-title:  "Welcome to Jekyll!"
+layout: post
+title:  "Example 2"
 description: jekyll update
-image: ../assets/images/our-blog/img-1.jpg
+cat: Food
+image: ../assets/images/our-blog/img-2.jpg
 ---
+
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
 
