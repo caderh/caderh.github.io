@@ -36,6 +36,11 @@ exclude:
   - .gitignore
   - README.md
 
+permalink: /news/:path/
+
 collections:
-  - newsItems
-  - productiveActionsItems
+  productiveActionsItems:
+    output: true
+    permalink: /productiveActions/:path/
+      
+    
