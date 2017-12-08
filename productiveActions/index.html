@@ -1,0 +1,33 @@
+---
+layout: default 
+title: CADERH | Acciones Productivas
+---
+
+<section id="nino-portfolio">
+	<div class="container">
+		<h2 class="nino-sectionHeading">
+			Acciones Productivas
+		</h2>
+		<p class="nino-sectionDesc">
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+		</p>
+	</div>
+	<div class="sectionContent">
+		<ul class="nino-portfolioItems">
+			{% for item in site.productiveActionsItems  %}
+				<li class="item">
+					<a class="nino-prettyPhoto" title={{item.title}} href="#">
+						<img src={{item.image}} />
+						<div class="overlay">
+							<div class="content">
+								<i class="mdi mdi-crown nino-icon"></i>
+								<h4 class="title">{{item.title}}</h4>
+								<span class="desc">{{itme.description}}</span>
+							</div>
+						</div>
+					</a>
+				</li>
+			{% endfor %}
+		</ul>
+	</div>
+</section><!--/#nino-portfolio-->
