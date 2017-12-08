@@ -236,7 +236,7 @@ img.img-full-width {
 #nino-header {
 	position: relative;
 	font-family: 'Montserrat', sans-serif;
-	background: url(../images/main-header.jpg) no-repeat center center / cover;
+	background: url(/assets/images/main-header.jpg) no-repeat center center / cover;
 }
 #nino-header:after {
 	content: "";
@@ -740,7 +740,7 @@ section {
 }
 /* =============== SECTION HAPPY CLIENT =============== */
 #nino-happyClient {
-	background: url(../images/happy-client/bg-happy-client.jpg) no-repeat center center / cover;
+	background: url(../images/productive-actions/background.jpg) no-repeat center center / cover;
 }
 #nino-happyClient .item {
 	margin-bottom: 30px;
