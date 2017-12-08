@@ -53,17 +53,35 @@ jQuery(function($) {
 	$("a.nino-prettyPhoto").prettyPhoto();
 	
 	/* =============== SMOOTH SCROOL EFFECT =============== */
-	$('#nino-navbar ul li a').on('click',function (e) {
-	    e.preventDefault();
-	    var target = this.hash,
-	    $target = $(target);
-
-	    $('html, body').stop().animate({
-	        'scrollTop': $target.offset().top
-	    }, 500, 'swing', function () {
-	        window.location.hash = target;
-	    });
+	$(function() {
+		$('#nino-navbar ul li a').click(function() {
+			if (
+					window.location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+				&&  window.location.hostname == this.hostname
+			) {
+				var target = $(this.hash);
+				target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+				if (target.length) {
+					$('html,body').animate({
+						scrollTop: target.offset().top
+					}, 500);
+					return false;
+				}
+			}
+		});
 	});
+	
+	/*$('#nino-navbar ul li a').on('click',function (e) {
+		e.preventDefault();
+		var target = this.hash,
+		$target = $(target);
+		$('html, body').stop().animate({
+		'scrollTop': $target.offset().top
+		}, 500, 'swing', function () {
+			window.location.hash = target;
+		});
+	});*/
+	
 	
 	/* =============== SHOW / HIDE GO TO TOP =============== */
 	/* Check to see if the window is top if not then display go top button */
